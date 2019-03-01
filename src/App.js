@@ -7,11 +7,12 @@ import info from "./info.json";
 import projects from "./projects.json";
 
 class App extends React.Component {
-  state = { info, projects };
+  state = { info, projects};
 
   render() {
     return (
-      <Wrapper>
+      
+    <Wrapper>
         <div class="row" id="header">
           <p>
             <h1>
@@ -30,17 +31,16 @@ class App extends React.Component {
             <Links info={this.state.info} />
           </div>
         </div>
-        <div class="row">
-          {this.state.projects.map(project => {
-            return (
-              <span class="rounded border">
-                <Hexagon project={project} />
-              </span>
-            );
+        <ul id="projects" class="clr">
+        {this.state.projects.map(project=>{
+            return(
+         <Hexagon project ={project} />
+            )
           })}
-        </div>
-        <div class="row" />
-      </Wrapper>
+        </ul>
+        <div />
+  
+    </Wrapper>
     );
   }
 }

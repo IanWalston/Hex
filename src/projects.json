@@ -1,8 +1,16 @@
 [
   {
+    "id": 4,
+    "name": "Paletopia",
+    "image": "img/paletopia.gif",
+    "github": "",
+    "deployed": "https://ianwalston.github.io/paletopia",
+    "description": "Create a 10 color pallete from an image url"
+  },
+  {
     "id": 0,
     "name": "UMMI Images",
-    "image": "",
+    "image": "https://via.placeholder.com/300",
     "github": "",
     "deployed": "ummi.io",
     "description": "A sorting utility for user photo albums."
