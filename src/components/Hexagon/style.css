@@ -1,0 +1,22 @@
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+  }
+  
+  .hex {
+    cursor: pointer;
+    fill-opacity: 0.4;
+    stroke: #000;
+    stroke-width: 1;
+  }
+  
+  /* #color-fill .hex {
+    fill: skyblue;
+  } */
+  
+  
+  .hex {
+    transition: transform, fill-opacity, stroke-width;
+    -webkit-transition: transform, fill-opacity, stroke-width;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+  }

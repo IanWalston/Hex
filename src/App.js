@@ -1,26 +1,46 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Wrapper from "./components/Wrapper";
+import Links from "./components/Links";
+import Hexagon from "./components/Hexagon";
+import Headshot from "./components/Headshot";
+import info from "./info.json";
+import projects from "./projects.json";
 
-class App extends Component {
+class App extends React.Component {
+  state = { info, projects };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <Wrapper>
+        <div class="row" id="header">
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <h1>
+              <b>{this.state.info.name}</b> - {this.state.info.title}
+            </h1>
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <Headshot />
+          </div>
+          <div class="col-md-4">
+            <p>{this.state.info.description}</p>
+          </div>
+          <div class="col-md-4">
+            <Links info={this.state.info} />
+          </div>
+        </div>
+        <div class="row">
+          {this.state.projects.map(project => {
+            return (
+              <span class="rounded border">
+                <Hexagon project={project} />
+              </span>
+            );
+          })}
+        </div>
+        <div class="row" />
+      </Wrapper>
     );
   }
 }
