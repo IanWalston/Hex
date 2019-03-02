@@ -2,31 +2,37 @@
   {
     "name": "Phone",
     "link": "tel:+13017856988",
-    "image": "./img/hexicons/phone.png"
+    "hexicon": "./img/hexicons/phone.png",
+    "icon": "./img/icons/phone.png"
   },
   {
     "name": "Email",
     "link": "mailto:ikwalston@comcast.net",
-    "image": "./img/hexicons/email.png"
+    "hexicon": "./img/hexicons/email.png",
+    "icon": "./img/icons/email.png"
   },
   {
     "name": "Address",
     "link": "Olney, MD 20832",
-    "image": "./img/hexicons/location.png"
+    "hexicon": "./img/hexicons/location.png",
+    "icon": "./img/icons/location.png"
   },
   {
     "name": "Github",
     "link": "https://github.com/ianwalston",
-    "image": "./img/hexicons/github.png"
+    "hexicon": "./img/hexicons/github.png",
+    "icon": "./img/icons/github.png"
   },
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/ianwalston/",
-    "image": "./img/hexicons/linkedin.png"
+    "hexicon": "./img/hexicons/linkedin.png",
+    "icon": "./img/icons/linkedin.png"
   },
   {
     "name": "HeyTutor",
     "link": "https://heytutor.com/info/MD/Silver-Spring/ID10696-Ian-Walston/",
-    "image": "./img/hexicons/heytutor.png"
+    "hexicon": "./img/hexicons/heytutor.png",
+    "icon": "./img/icons/heytutor.png"
   }
 ]

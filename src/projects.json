@@ -54,5 +54,13 @@
     "github": "",
     "link": "https://ianwalston.github.io/memory-game-build/index.html",
     "description": "A simple react app made with svg elements. "
+  },
+  {
+    "id": 7,
+    "name": "Hex Links",
+    "image": "img/hexlinks.png",
+    "github": "",
+    "link": "./",
+    "description": "A simple react app made with svg elements. "
   }
 ]
