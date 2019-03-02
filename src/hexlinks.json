@@ -2,31 +2,31 @@
   {
     "name": "Phone",
     "link": "tel:+13017856988",
-    "image": "./img/icons/phone.png"
+    "image": "./img/hexicons/phone.png"
   },
   {
     "name": "Email",
     "link": "tel:+13017856988",
-    "image": "./img/icons/email.png"
+    "image": "./img/hexicons/email.png"
   },
   {
     "name": "Address",
     "link": "tel:+13017856988",
-    "image": "./img/icons/location.png"
+    "image": "./img/hexicons/location.png"
   },
   {
     "name": "Github",
     "link": "tel:+13017856988",
-    "image": "./img/icons/github.png"
+    "image": "./img/hexicons/github.png"
   },
   {
     "name": "LinkedIn",
     "link": "tel:+13017856988",
-    "image": "./img/icons/linkedin.png"
+    "image": "./img/hexicons/linkedin.png"
   },
   {
     "name": "HeyTutor",
     "link": "tel:+13017856988",
-    "image": "./img/icons/heytutor.png"
+    "image": "./img/hexicons/heytutor.png"
   }
 ]

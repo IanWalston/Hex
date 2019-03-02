@@ -5,10 +5,10 @@ import Hexagon from "./components/Hexagon";
 import Headshot from "./components/Headshot";
 import info from "./info.json";
 import projects from "./projects.json";
-import links from "./links.json";
+import hexlinks from "./hexlinks.json";
 
 class App extends React.Component {
-  state = { info, projects, links };
+  state = { info, projects, hexlinks, hexlinkson: true };
 
   render() {
     return (
@@ -28,16 +28,36 @@ class App extends React.Component {
             <p>{this.state.info.description}</p>
           </div>
           <div class="col-md-4">
-            <ul id="projects" class="clr">
-              {this.state.links.map(link => {
-                return <Hexagon image={link.image} />;
-              })}
-            </ul>
+            {this.state.hexlinkson ? (
+              <div>
+                <input
+                  type="button"
+                  className="btn-warning"
+                  value="normal links"
+                  onClick={() => this.setState({ hexlinkson: false })}
+                />
+                <ul id="projects" class="clr">
+                  {this.state.hexlinks.map(link => {
+                    return <Hexagon image={link.image} />;
+                  })}
+                </ul>
+              </div>
+            ) : (
+              <div>
+                <input
+                  type="button"
+                  className="btn-primary"
+                  value="hexagon links"
+                  onClick={() => this.setState({ hexlinkson: true })}
+                />
+                <Links info={this.state.info} />
+              </div>
+            )}
           </div>
         </div>
         <ul id="projects" class="clr">
           {this.state.projects.map(project => {
-            return <Hexagon image={project.image } />;
+            return <Hexagon image={project.image} />;
           })}
         </ul>
         <div />
