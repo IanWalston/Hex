@@ -29,15 +29,15 @@ class App extends React.Component {
           </div>
           <div class="col-md-4">
             <ul id="projects" class="clr">
-              {this.state.links.map(project => {
-                return <Hexagon project={project} />;
+              {this.state.links.map(link => {
+                return <Hexagon image={link.image} />;
               })}
             </ul>
           </div>
         </div>
         <ul id="projects" class="clr">
           {this.state.projects.map(project => {
-            return <Hexagon project={project} />;
+            return <Hexagon image={project.image } />;
           })}
         </ul>
         <div />

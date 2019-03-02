@@ -4,7 +4,7 @@ import "./style.css";
 function Hexagon(props) {
   return  <li>
   <div>
-    <img src={props.project.image} alt=""/>
+    <img src={props.image} alt=""/>
     {/* <p>{props.project.name}</p> */}
 </div>
 </li>
