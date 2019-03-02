@@ -40,36 +40,44 @@ class App extends React.Component {
             <p>{this.state.info.description}</p>
           </div>
           <div class="col-md-4">
+          <img
+alt="hex view controller"
+width="32px"
+src={this.state.hexlinkson?"./img/icons/list.png":"./img/icons/hexagon.png"}
+onClick={() => this.setState({ hexlinkson: !this.state.hexlinkson })}
+/>
             {this.state.hexlinkson ? (
               <div>
-                <input
-                  type="button"
-                  className="btn-warning"
-                  value="normal links"
-                  onClick={() => this.setState({ hexlinkson: false })}
-                />
-                <ul id="projects" class="clr">
+                <ul id="projects">
                   {this.state.hexlinks.map(link => {
-                    return <Hexagon image={link.hexicon} link={link.link} darktheme={this.state.darktheme}/>;
+                    return (
+                      <Hexagon
+                        image={link.hexicon}
+                        link={link.link}
+                        darktheme={this.state.darktheme}
+                      />
+                    );
                   })}
                 </ul>
               </div>
             ) : (
               <div>
-                <input
-                  type="button"
-                  className="btn-primary"
-                  value="hexagon links"
-                  onClick={() => this.setState({ hexlinkson: true })}
-                />
                 <Links info={this.state.hexlinks} />
               </div>
             )}
           </div>
         </div>
-        <ul id="projects" class="clr">
+        <ul id="projects" className="clr">
           {this.state.projects.map(project => {
-            return <Hexagon image={project.image} link={project.link}  darktheme={this.state.darktheme} />;
+            return (
+              <Hexagon
+                image={project.image}
+                link={project.link}
+                name={project.name}
+                description={project.description}
+                darktheme={this.state.darktheme}
+              />
+            );
           })}
         </ul>
         <div />
