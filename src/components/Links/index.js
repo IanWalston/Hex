@@ -4,12 +4,15 @@ function Links(props) {
   return (
     <div>
       <ul>
-      {props.info.map(info=>{
-        return (<div>
-          <img src={info.icon} width="24px" height="auto"/><a href={info.link}>  {info.name}</a>
-        </div>)
-      })}
-
+        {props.info.map(info => {
+          return (
+            <div className="p-1">
+              <a href={info.link}>
+                <img src={info.icon} width="28px" height="auto" /> {info.name}
+              </a>
+            </div>
+          );
+        })}
       </ul>
     </div>
   );

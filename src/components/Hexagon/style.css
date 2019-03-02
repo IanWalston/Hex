@@ -13,6 +13,13 @@
   transform: rotate(-60deg) skewY(30deg); /* skewY   -  skews an element in the vertical direction on the 2D plane. */
 }
 
+#projects li:nth-child(3n+2){
+  margin:0 1%;
+}
+#projects li:nth-child(6n+4){
+  margin-left:0.5%;
+}
+
 #projects li:nth-child(6n + 4),
 #projects li:nth-child(6n + 5),
 #projects li:nth-child(6n + 6) {

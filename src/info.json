@@ -1,11 +1,5 @@
 {
   "name": "Ian Walston",
   "title": "Software Developer",
-  "description": "Web Developer with a background in math and science. Experience with javascript, git, npm, and various js libraries and frameworks. Studied stack at George Washington University. B.S. in Biological Sciences from University of Maryland, College Park. Other interests include computer vision, 3D-printing, CRISPR, and music.",
-  "email": "ikwalston@comcast.net",
-  "phone": "(301)785-6988",
-  "LinkedIn": "https://www.linkedin.com/in/ianwalston/",
-  "Github": "https://github.com/ianwalston",
-  "resume": "img/resume.pdf",
-  "tutorprofile": "https://heytutor.com/info/MD/Silver-Spring/ID10696-Ian-Walston/"
+  "description": "Web Developer with a background in math and science. Experience with javascript, git, npm, and various js libraries and frameworks. Studied stack at George Washington University. B.S. in Biological Sciences from University of Maryland, College Park. Other interests include computer vision, 3D-printing, CRISPR, and music."
 }
