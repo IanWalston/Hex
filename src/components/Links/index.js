@@ -8,7 +8,7 @@ function Links(props) {
           return (
             <div className="p-1">
               <a href={info.link}>
-                <img src={info.icon} width="28px" height="auto" /> {info.name}
+                <img alt={info.name + "link"} src={info.icon} width="28px" height="auto" /> {info.name}
               </a>
             </div>
           );

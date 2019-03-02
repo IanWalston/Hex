@@ -5,7 +5,7 @@ function Hexagon(props) {
   return (
     <li>
       <div onClick={()=>{window.location = props.link}}>
-          <img src={props.image} alt="" />
+          <img className={props.darktheme?`inverted`:null} src={props.image} alt="" />
       
           {/* <p>{props.project.name}</p> */}
       </div>

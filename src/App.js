@@ -13,16 +13,23 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper darktheme={this.state.darktheme}>
-        <div class="row" id="header"><div className="col-md-11">
-
-          <p>
-            <h1>
-              <b>{this.state.info.name}</b> - {this.state.info.title}
-            </h1>
-          </p>
-        </div>
-        <div className="col-md-1">
-          <input type="button" value="Dark" className="btn-secondary" onClick={()=>this.setState({darktheme: true})}></input>
+        <div class="row" id="header">
+          <div className="col-md-11">
+            <p>
+              <h1>
+                <b>{this.state.info.name}</b> - {this.state.info.title}
+              </h1>
+            </p>
+          </div>
+          <div className="col-md-1">
+            <input
+              type="button"
+              value="Dark"
+              className="btn-secondary"
+              onClick={() =>
+                this.setState({ darktheme: !this.state.darktheme })
+              }
+            />
           </div>
         </div>
         <div class="row">
@@ -43,7 +50,7 @@ class App extends React.Component {
                 />
                 <ul id="projects" class="clr">
                   {this.state.hexlinks.map(link => {
-                    return <Hexagon image={link.hexicon} link={link.link} />;
+                    return <Hexagon image={link.hexicon} link={link.link} darktheme={this.state.darktheme}/>;
                   })}
                 </ul>
               </div>
@@ -62,7 +69,7 @@ class App extends React.Component {
         </div>
         <ul id="projects" class="clr">
           {this.state.projects.map(project => {
-            return <Hexagon image={project.image} link={project.link} />;
+            return <Hexagon image={project.image} link={project.link}  darktheme={this.state.darktheme} />;
           })}
         </ul>
         <div />

@@ -56,3 +56,9 @@
   height: 100%;
   margin: 0 auto;
 }
+
+/* inverts the colors of the hexagon when applied */
+.inverted{
+  filter: invert(100%);
+  transition: filter linear 1s
+}
