@@ -38,7 +38,7 @@ class App extends React.Component {
                 />
                 <ul id="projects" class="clr">
                   {this.state.hexlinks.map(link => {
-                    return <Hexagon image={link.image} />;
+                    return <Hexagon image={link.image} link={link.link}/>;
                   })}
                 </ul>
               </div>
@@ -57,7 +57,7 @@ class App extends React.Component {
         </div>
         <ul id="projects" class="clr">
           {this.state.projects.map(project => {
-            return <Hexagon image={project.image} />;
+            return <Hexagon image={project.image} link={project.link} />;
           })}
         </ul>
         <div />

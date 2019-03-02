@@ -4,7 +4,7 @@
     "name": "UMMI Images",
     "image": "img/UMMI.png",
     "github": "",
-    "deployed": "ummi.io",
+    "link": "http://ummi.io",
     "description": "A sorting utility for user photo albums."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Walston Communications",
     "image": "img/walstoncom.gif",
     "github": "",
-    "deployed": "https://ianwalston.github.io/walstoncom/",
+    "link": "https://ianwalston.github.io/walstoncom/",
     "description": "A portfolio for a writing agency"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Skin Care Search API",
     "image": "img/skincaresearchapi.gif",
     "github": "",
-    "deployed": "https://skincareapi.herokuapp.com",
+    "link": "https://skincareapi.herokuapp.com",
     "description": "An API for searching through databases of skin care product safety information"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Quick Maths",
     "image": "img/quickmaths.gif",
     "github": "",
-    "deployed": "https://ianwalston.github.io/QuickMaths/",
+    "link": "https://ianwalston.github.io/QuickMaths/",
     "description": "A plain JavaScript math game designed to reinforce a students understanding of order of operations."
   },
   {
@@ -36,7 +36,7 @@
     "name": "Paletopia",
     "image": "img/paletopia.gif",
     "github": "",
-    "deployed": "https://ianwalston.github.io/paletopia",
+    "link": "https://ianwalston.github.io/paletopia",
     "description": "Create a 10 color pallete from an image url"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Javascript Game",
     "image": "img/jsgame.gif",
     "github": "",
-    "deployed": "https://ianwalston.github.io/unit-4-game/",
+    "link": "https://ianwalston.github.io/unit-4-game/",
     "description": "A simple game made from pure HTML, JavaScript, and CSS. Made to study HTML5 selectors and audio elements."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Memory Balls",
     "image": "img/memoryballs.png",
     "github": "",
-    "deployed": "https://ianwalston.github.io/memory-game-build/index.html",
+    "link": "https://ianwalston.github.io/memory-game-build/index.html",
     "description": "A simple react app made with svg elements. "
   }
 ]
