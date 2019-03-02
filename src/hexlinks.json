@@ -34,5 +34,11 @@
     "link": "https://heytutor.com/info/MD/Silver-Spring/ID10696-Ian-Walston/",
     "hexicon": "./img/hexicons/heytutor.png",
     "icon": "./img/icons/heytutor.png"
+  },
+  {
+    "name": "Resume",
+    "link": "./img/resume.pdf",
+    "hexicon": "./img/hexicons/resume.png",
+    "icon": "./img/icons/resume.png"
   }
 ]
