@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Phone",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/phone.png"
+  },
+  {
+    "name": "Email",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/email.png"
+  },
+  {
+    "name": "Address",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/location.png"
+  },
+  {
+    "name": "Github",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/github.png"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/linkedin.png"
+  },
+  {
+    "name": "HeyTutor",
+    "link": "tel:+13017856988",
+    "image": "./img/icons/heytutor.png"
+  }
+]

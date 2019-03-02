@@ -1,16 +1,8 @@
 [
   {
-    "id": 4,
-    "name": "Paletopia",
-    "image": "img/paletopia.gif",
-    "github": "",
-    "deployed": "https://ianwalston.github.io/paletopia",
-    "description": "Create a 10 color pallete from an image url"
-  },
-  {
     "id": 0,
     "name": "UMMI Images",
-    "image": "https://via.placeholder.com/300",
+    "image": "img/UMMI.png",
     "github": "",
     "deployed": "ummi.io",
     "description": "A sorting utility for user photo albums."
@@ -58,7 +50,7 @@
   {
     "id": 6,
     "name": "Memory Balls",
-    "image": "",
+    "image": "img/memoryballs.png",
     "github": "",
     "deployed": "https://ianwalston.github.io/memory-game-build/index.html",
     "description": "A simple react app made with svg elements. "

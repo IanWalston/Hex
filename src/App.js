@@ -5,14 +5,14 @@ import Hexagon from "./components/Hexagon";
 import Headshot from "./components/Headshot";
 import info from "./info.json";
 import projects from "./projects.json";
+import links from "./links.json";
 
 class App extends React.Component {
-  state = { info, projects};
+  state = { info, projects, links };
 
   render() {
     return (
-      
-    <Wrapper>
+      <Wrapper>
         <div class="row" id="header">
           <p>
             <h1>
@@ -28,19 +28,20 @@ class App extends React.Component {
             <p>{this.state.info.description}</p>
           </div>
           <div class="col-md-4">
-            <Links info={this.state.info} />
+            <ul id="projects" class="clr">
+              {this.state.links.map(project => {
+                return <Hexagon project={project} />;
+              })}
+            </ul>
           </div>
         </div>
         <ul id="projects" class="clr">
-        {this.state.projects.map(project=>{
-            return(
-         <Hexagon project ={project} />
-            )
+          {this.state.projects.map(project => {
+            return <Hexagon project={project} />;
           })}
         </ul>
         <div />
-  
-    </Wrapper>
+      </Wrapper>
     );
   }
 }
