@@ -3,9 +3,9 @@ import "./style.css";
 
 function Wrapper(props) {
   return (
-    <div className="wrapper p-2 m-2 rounded border">
-      <div className="container p-2 m-2 rounded border">
-        <div className="row p-2 m-2 rounded border">
+    <div className={`wrapper p-2 m-2 ${props.darktheme?"darkwrapper":null}`}>
+      <div className={`container p-2 m-2  ${props.darktheme?"darkcontainer":null}`}>
+        <div className="row p-2 m-2">
         <div className="p-2 m-2">
         {props.children}
         </div>

@@ -8,17 +8,22 @@ import projects from "./projects.json";
 import hexlinks from "./hexlinks.json";
 
 class App extends React.Component {
-  state = { info, projects, hexlinks, hexlinkson: true };
+  state = { info, projects, hexlinks, hexlinkson: true, darktheme: false };
 
   render() {
     return (
-      <Wrapper>
-        <div class="row" id="header">
+      <Wrapper darktheme={this.state.darktheme}>
+        <div class="row" id="header"><div className="col-md-11">
+
           <p>
             <h1>
               <b>{this.state.info.name}</b> - {this.state.info.title}
             </h1>
           </p>
+        </div>
+        <div className="col-md-1">
+          <input type="button" value="Dark" className="btn-secondary" onClick={()=>this.setState({darktheme: true})}></input>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-4">

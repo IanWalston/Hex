@@ -1,5 +1,6 @@
 .wrapper {
   background: white;
+  transition: background linear .5s;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -10,5 +11,14 @@
 }
 .container {
   background: white;
+  transition: background linear .5s;
   /* padding: 2rem */
+}
+
+.darkwrapper{
+  background: rgb(69, 69, 69);
+}
+
+.darkcontainer{
+  background: rgb(69, 69, 69);
 }
