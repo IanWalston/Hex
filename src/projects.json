@@ -12,8 +12,8 @@
     "name": "Walston Communications",
     "image": "img/walstoncom.gif",
     "github": "",
-    "link": "https://ianwalston.github.io/walstoncom/",
-    "description": "A portfolio for a writing agency"
+    "link": "https://ianwalston.github.io/Walston-Communications/",
+    "description": "A portfolio for a writing agency."
   },
   {
     "id": 2,
@@ -21,30 +21,30 @@
     "image": "img/skincaresearchapi.gif",
     "github": "",
     "link": "https://skincareapi.herokuapp.com",
-    "description": "An API for searching through databases of skin care product safety information"
+    "description": "An API for searching through databases of skin care product safety information."
   },
   {
     "id": 3,
     "name": "Quick Maths",
     "image": "img/quickmaths.gif",
     "github": "",
-    "link": "https://ianwalston.github.io/QuickMaths/",
-    "description": "A plain JavaScript math game designed to reinforce a students understanding of order of operations."
+    "link": "https://ianwalston.github.io/Quick-Maths/",
+    "description": "A plain JavaScript math game designed to reinforce a student's understanding of order of operations."
   },
   {
     "id": 4,
     "name": "Paletopia",
     "image": "img/paletopia.gif",
     "github": "",
-    "link": "https://ianwalston.github.io/paletopia",
-    "description": "Create a 10 color pallete from an image url"
+    "link": "https://ianwalston.github.io/Paletopia",
+    "description": "Create a 10 color pallete from an image url."
   },
   {
     "id": 5,
     "name": "Javascript Game",
     "image": "img/jsgame.gif",
     "github": "",
-    "link": "https://ianwalston.github.io/unit-4-game/",
+    "link": "https://ianwalston.github.io/JS-Constructors/",
     "description": "A simple game made from pure HTML, JavaScript, and CSS. Made to study HTML5 selectors and audio elements."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Memory Balls",
     "image": "img/memoryballs.png",
     "github": "",
-    "link": "https://ianwalston.github.io/memory-game-build/index.html",
+    "link": "https://ianwalston.github.io/Color-Memory",
     "description": "A simple react app made with svg elements. "
   },
   {
@@ -61,6 +61,6 @@
     "image": "img/hexlinks.png",
     "github": "",
     "link": "./",
-    "description": "A simple react app made with svg elements. "
+    "description": "A hexagon themed web developer portfolio made in react."
   }
 ]
