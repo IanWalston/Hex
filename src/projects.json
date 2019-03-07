@@ -10,7 +10,7 @@
   {
     "id": 1,
     "name": "Walston Communications",
-    "image": "img/walstoncom.gif",
+    "image": "img/walstonicon.jpg",
     "github": "",
     "link": "https://ianwalston.github.io/Walston-Communications/",
     "description": "A portfolio for a writing agency."
@@ -18,18 +18,18 @@
   {
     "id": 2,
     "name": "Skin Care Search API",
-    "image": "img/skincaresearchapi.gif",
+    "image": "img/skincaresearchapi.png",
     "github": "",
     "link": "https://skincareapi.herokuapp.com",
-    "description": "An API for searching through databases of skin care product safety information."
+    "description": "An API for searching through skin care product safety data."
   },
   {
     "id": 3,
     "name": "Quick Maths",
-    "image": "img/quickmaths.gif",
+    "image": "img/quickmaths2.png",
     "github": "",
-    "link": "https://ianwalston.github.io/Quick-Maths/",
-    "description": "A plain JavaScript math game designed to reinforce a student's understanding of order of operations."
+    "link": "https://ianwalston.github.io/QuickMaths/",
+    "description": "A plain JavaScript math game designed train order of operations."
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "image": "img/jsgame.gif",
     "github": "",
     "link": "https://ianwalston.github.io/JS-Constructors/",
-    "description": "A simple game made from pure HTML, JavaScript, and CSS. Made to study HTML5 selectors and audio elements."
+    "description": "A simple game made with pure JS, no framework"
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "image": "img/memoryballs.png",
     "github": "",
     "link": "https://ianwalston.github.io/Color-Memory",
-    "description": "A simple react app made with svg elements. "
+    "description": "A static react app made with svg elements."
   },
   {
     "id": 7,

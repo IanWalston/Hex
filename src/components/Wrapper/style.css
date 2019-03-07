@@ -1,24 +1,20 @@
 .wrapper {
-  background: white;
-  transition: background linear .5s;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
+  background: linear-gradient(rgb(240, 240, 240), rgb(188, 188, 188));
 
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
 }
-.container {
-  background: white;
-  transition: background linear .5s;
-  /* padding: 2rem */
-}
 
 .darkwrapper{
+  transition: background linear .5s;
   background: rgb(69, 69, 69);
+  color: lightgrey;
 }
 
-.darkcontainer{
-  background: rgb(69, 69, 69);
+a{
+  color:grey
 }

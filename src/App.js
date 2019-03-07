@@ -2,7 +2,6 @@ import React from "react";
 import Wrapper from "./components/Wrapper";
 import Links from "./components/Links";
 import Hexagon from "./components/Hexagon";
-import Headshot from "./components/Headshot";
 import info from "./info.json";
 import projects from "./projects.json";
 import hexlinks from "./hexlinks.json";
@@ -14,38 +13,20 @@ class App extends React.Component {
     return (
       <Wrapper darktheme={this.state.darktheme}>
         <div class="row" id="header">
-          <div className="col-md-11">
-            <p>
+          <div className="col-md-8">
+            <div className="row">
               <h1>
-                <b>{this.state.info.name}</b> - {this.state.info.title}
+                <span>{this.state.info.name}</span>
+                <span style={{ color: "grey" }}>
+                  {" " + this.state.info.title}
+                </span>
               </h1>
-            </p>
+            </div>
+            <div className="row">
+              <p>{this.state.info.description}</p>
+            </div>
           </div>
-          <div className="col-md-1">
-            <input
-              type="button"
-              value="Dark"
-              className="btn-secondary"
-              onClick={() =>
-                this.setState({ darktheme: !this.state.darktheme })
-              }
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <Headshot />
-          </div>
-          <div class="col-md-4">
-            <p>{this.state.info.description}</p>
-          </div>
-          <div class="col-md-4">
-          <img
-alt="hex view controller"
-width="32px"
-src={this.state.hexlinkson?"./img/icons/list.png":"./img/icons/hexagon.png"}
-onClick={() => this.setState({ hexlinkson: !this.state.hexlinkson })}
-/>
+          <div className="col-md-3" style={{"min-height":"300px"}}>
             {this.state.hexlinkson ? (
               <div>
                 <ul id="projects">
@@ -66,8 +47,37 @@ onClick={() => this.setState({ hexlinkson: !this.state.hexlinkson })}
               </div>
             )}
           </div>
+          <div className="col-md-1">
+            <div className="row mt-3">
+              <img
+                alt="hex view controller"
+                width="32px"
+                height="32px"
+                src={
+                  this.state.hexlinkson
+                    ? "./img/icons/list.png"
+                    : "./img/icons/hexagon.png"
+                }
+                onClick={() =>
+                  this.setState({ hexlinkson: !this.state.hexlinkson })
+                }
+              />
+            </div>
+            <div className="row my-2">
+              <input
+                type="button"
+                value="Dark"
+                style={{backgroundColor:"black",color:"white"}}
+                className=""
+                onClick={() =>
+                  this.setState({ darktheme: !this.state.darktheme })
+                }
+              />
+            </div>
+          </div>
         </div>
-        <ul id="projects" className="clr">
+        <div class="row" />
+        <ul id="projects" className="clr winkhover">
           {this.state.projects.map(project => {
             return (
               <Hexagon

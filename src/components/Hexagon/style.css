@@ -62,33 +62,33 @@
   filter: invert(100%);
   transition: filter linear 1s}
 
-#projects div h1, #projects div p{
+.winkhover div h1, .winkhover div p{
   width: 100%;
   padding:0 5%;
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0.578);
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
 }
 
-#projects li h1{
+.winkhover li h1{
   bottom:110%;
   font-size:20px;
   padding-top:100%;
   padding-bottom:100%;
 }
 
-#projects li p{
+.winkhover li p{
     padding-top:50%;
     top:110%;
     padding-bottom:50%;
 }
 
 
-#projects li div:hover h1 {
+.winkhover li div:hover h1 {
   bottom:50%;
   padding-bottom:10%;
 }
 
-#projects li div:hover p{
+.winkhover li div:hover p{
   top:50%;
   padding-top:10%;
 
