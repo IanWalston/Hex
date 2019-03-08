@@ -3,42 +3,49 @@
     "name": "Phone",
     "link": "tel:+13017856988",
     "hexicon": "./img/hexicons/phone.png",
-    "icon": "./img/icons/phone.png"
+    "icon": "./img/icons/phone.png",
+    "tooltip": "(301)785-6988"
   },
   {
     "name": "Email",
     "link": "mailto:ikwalston@comcast.net",
     "hexicon": "./img/hexicons/email.png",
-    "icon": "./img/icons/email.png"
+    "icon": "./img/icons/email.png",
+    "tooltip": "ikwalston@comcast.net"
   },
   {
     "name": "Address",
     "link": "Olney, MD 20832",
     "hexicon": "./img/hexicons/location.png",
-    "icon": "./img/icons/location.png"
+    "icon": "./img/icons/location.png",
+    "tooltip": "Olney, MD 20832"
   },
   {
     "name": "Github",
     "link": "https://github.com/ianwalston",
     "hexicon": "./img/hexicons/github.png",
-    "icon": "./img/icons/github.png"
+    "icon": "./img/icons/github.png",
+    "tooltip": "Github: IanWalston"
   },
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/ianwalston/",
     "hexicon": "./img/hexicons/linkedin.png",
-    "icon": "./img/icons/linkedin.png"
+    "icon": "./img/icons/linkedin.png",
+    "tooltip": "LinkedIn: IanWalston"
   },
   {
     "name": "HeyTutor",
     "link": "https://heytutor.com/info/MD/Silver-Spring/ID10696-Ian-Walston/",
     "hexicon": "./img/hexicons/heytutor.png",
-    "icon": "./img/icons/heytutor.png"
+    "icon": "./img/icons/heytutor.png",
+    "tooltip": "Tutoring Profile"
   },
   {
     "name": "Resume",
     "link": "./img/resume.pdf",
     "hexicon": "./img/hexicons/resume.png",
-    "icon": "./img/icons/resume.png"
+    "icon": "./img/icons/resume.png",
+    "tooltip": "Ian's Resume"
   }
 ]

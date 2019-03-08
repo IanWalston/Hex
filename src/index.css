@@ -11,6 +11,10 @@ body,
   margin: 0;
 }
 
-.title{
-  color:grey
+.title {
+  color: grey;
+}
+
+input:focus {
+  outline: 0;
 }
