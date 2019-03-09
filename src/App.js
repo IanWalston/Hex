@@ -65,7 +65,7 @@ class App extends React.Component {
                 data-tip={
                   this.state.hexlinkson
                     ? "view links as list"
-                    : "view links as hexagon"
+                    : "view links as hexagons"
                 }
                 onClick={() =>
                   this.setState({ hexlinkson: !this.state.hexlinkson })
