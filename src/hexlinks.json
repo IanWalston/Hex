@@ -15,7 +15,7 @@
   },
   {
     "name": "Address",
-    "link": "Olney, MD 20832",
+    "link": "https://www.google.com/maps/place/Olney,+MD/@39.1470678,-77.104819,13z/data=!3m1!4b1!4m5!3m4!1s0x89b7d1147db1a9f1:0x9b9248054572a528!8m2!3d39.1531627!4d-77.066923",
     "hexicon": "./img/hexicons/location.png",
     "icon": "./img/icons/location.png",
     "tooltip": "Olney, MD 20832"
@@ -43,7 +43,7 @@
   },
   {
     "name": "Resume",
-    "link": "./img/resume.pdf",
+    "link": "https://docs.google.com/document/d/1zEvoNGDIMiGIK1gmspDhnhNJud8gGP99-xijOF2HWWw/edit?usp=sharing",
     "hexicon": "./img/hexicons/resume.png",
     "icon": "./img/icons/resume.png",
     "tooltip": "Ian's Resume"

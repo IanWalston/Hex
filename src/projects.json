@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Skin Care Search API",
-    "image": "img/skincaresearchapi.png",
+    "image": "img/skincaresearchapi.jpg",
     "github": "",
     "link": "https://skincareapi.herokuapp.com",
     "description": "An API for searching through skin care product safety data."

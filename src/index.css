@@ -6,7 +6,6 @@
 html,
 body,
 #root {
-  /* transition: background linear .5s; */
   padding: 0;
   margin: 0;
 }
@@ -17,4 +16,23 @@ body,
 
 input:focus {
   outline: 0;
+}
+
+#top {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+#links {
+  min-height: 300px;
+}
+
+#controls * {
+  margin: 0 1rem;
+}
+
+#projects-view {
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: -2.5rem;
 }

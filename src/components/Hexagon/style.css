@@ -10,7 +10,8 @@
   float: left;
   overflow: hidden;
   visibility: hidden;
-  transform: rotate(-60deg) skewY(30deg); /* skewY   -  skews an element in the vertical direction on the 2D plane. */
+  transform: rotate(-60deg) skewY(30deg);
+
 }
 #projects li:nth-child(3n+2){
   margin:0 1%;
@@ -47,7 +48,6 @@
   transform: skewY(-30deg) rotate(60deg);
 }
 
-
 #projects li img {
   left: -100%;
   right: -100%;
@@ -56,11 +56,11 @@
   margin: 0 auto;
 }
 
-
 /* inverts the colors of the hexagon when applied */
 .inverted{
-  filter: invert(100%);
-  transition: filter linear 1s}
+  filter: grayscale(90%);
+  transition: filter linear 1s;
+}
 
 .winkhover div h1, .winkhover div p{
   width: 100%;
@@ -81,7 +81,6 @@
     top:110%;
     padding-bottom:50%;
 }
-
 
 .winkhover li div:hover h1 {
   bottom:50%;
