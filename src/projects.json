@@ -9,6 +9,14 @@
   },
   {
     "id": 1,
+    "name": "Responsive ptable",
+    "image": "img/PTABLE.png",
+    "github": "",
+    "link": "https://ianwalston.github.io/ptable-react/build/",
+    "description": "A mobile responsive periodic table."
+  },
+  {
+    "id": 2,
     "name": "Walston Communications",
     "image": "img/walstonicon.jpg",
     "github": "",
@@ -16,20 +24,12 @@
     "description": "A portfolio for a writing agency."
   },
   {
-    "id": 2,
-    "name": "Skin Care Search API",
-    "image": "img/skincaresearchapi.jpg",
-    "github": "",
-    "link": "https://skincareapi.herokuapp.com",
-    "description": "An API for searching through skin care product safety data."
-  },
-  {
     "id": 3,
-    "name": "Quick Maths",
-    "image": "img/quickmaths2.png",
+    "name": "Memory Balls",
+    "image": "img/memoryballs.png",
     "github": "",
-    "link": "https://ianwalston.github.io/QuickMaths/",
-    "description": "A plain JavaScript math game designed to train order of operations."
+    "link": "https://ianwalston.github.io/Color-Memory",
+    "description": "A static react app made with svg elements."
   },
   {
     "id": 4,
@@ -41,19 +41,19 @@
   },
   {
     "id": 5,
+    "name": "Quick Maths",
+    "image": "img/quickmaths2.png",
+    "github": "",
+    "link": "https://ianwalston.github.io/QuickMaths/",
+    "description": "A plain JavaScript math game designed to train order of operations."
+  },
+  {
+    "id": 6,
     "name": "Javascript Game",
     "image": "img/jsgame.gif",
     "github": "",
     "link": "https://ianwalston.github.io/JS-Constructors/",
     "description": "A simple game made with pure JS, no framework"
-  },
-  {
-    "id": 6,
-    "name": "Memory Balls",
-    "image": "img/memoryballs.png",
-    "github": "",
-    "link": "https://ianwalston.github.io/Color-Memory",
-    "description": "A static react app made with svg elements."
   },
   {
     "id": 7,
@@ -62,5 +62,13 @@
     "github": "",
     "link": "./",
     "description": "A hexagon themed web developer portfolio made in react."
+  },
+  {
+    "id": 8,
+    "name": "Skin Care Search API",
+    "image": "img/skincaresearchapi.jpg",
+    "github": "",
+    "link": "https://skincareapi.herokuapp.com",
+    "description": "An API for searching through skin care product safety data."
   }
 ]

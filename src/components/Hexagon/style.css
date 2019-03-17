@@ -27,7 +27,6 @@
   transform: translateX(50%) rotate(-60deg) skewY(30deg);
 }
 
-
 #projects li:nth-child(6n + 4):last-child,
 #projects li:nth-child(6n + 5):last-child,
 #projects li:nth-child(6n + 6):last-child {
@@ -58,8 +57,8 @@
 
 /* inverts the colors of the hexagon when applied */
 .inverted{
-  filter: grayscale(90%);
-  transition: filter linear 1s;
+  filter: grayscale(66%);
+  /* transition: filter linear 1s; */
 }
 
 .winkhover div h1, .winkhover div p{
