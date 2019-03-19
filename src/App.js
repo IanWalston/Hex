@@ -19,7 +19,7 @@ class App extends React.Component {
         <ReactTooltip />
 
         <div id="top">
-          <div>
+          <div id="text">
             <h1>
               <span>{this.state.info.name}</span>
               <span style={{ color: "grey" }}>
@@ -58,24 +58,7 @@ class App extends React.Component {
                   this.setState({ darktheme: !this.state.darktheme })
                 }
               />
-              <input
-                type="button"
-                value="Btn 3"
-                style={{ backgroundColor: "black", color: "white" }}
-                className=""
-                onClick={() =>
-                  this.setState({ darktheme: !this.state.darktheme })
-                }
-              />
-              <input
-                type="button"
-                value="Btn 4"
-                style={{ backgroundColor: "black", color: "white" }}
-                className=""
-                onClick={() =>
-                  this.setState({ darktheme: !this.state.darktheme })
-                }
-              />
+             
             </div>
 
             <div id="links">
@@ -104,6 +87,7 @@ class App extends React.Component {
         </div>
 
         <div id="projects-view">
+        <p id="projects-header">PROJECTS</p>
           <ul id="projects" className="clr winkhover">
             {this.state.projects.map(project => {
               return (

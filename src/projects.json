@@ -1,13 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "UMMI Images",
-    "image": "img/UMMI.png",
-    "github": "",
-    "link": "http://ummi.io",
-    "description": "A sorting utility for user photo albums."
-  },
-  {
     "id": 1,
     "name": "Responsive ptable",
     "image": "img/PTABLE.png",
@@ -20,7 +12,7 @@
     "name": "Walston Communications",
     "image": "img/walstonicon.jpg",
     "github": "",
-    "link": "https://ianwalston.github.io/Walston-Communications/",
+    "link": "http://walstoncommunications.com",
     "description": "A portfolio for a writing agency."
   },
   {
@@ -32,14 +24,6 @@
     "description": "A static react app made with svg elements."
   },
   {
-    "id": 4,
-    "name": "Paletopia",
-    "image": "img/paletopia.gif",
-    "github": "",
-    "link": "https://ianwalston.github.io/Paletopia",
-    "description": "Create a 10 color pallete from an image url."
-  },
-  {
     "id": 5,
     "name": "Quick Maths",
     "image": "img/quickmaths2.png",
@@ -48,20 +32,20 @@
     "description": "A plain JavaScript math game designed to train order of operations."
   },
   {
-    "id": 6,
-    "name": "Javascript Game",
-    "image": "img/jsgame.gif",
+    "id": 4,
+    "name": "Paletopia",
+    "image": "img/paletopia.gif",
     "github": "",
-    "link": "https://ianwalston.github.io/JS-Constructors/",
-    "description": "A simple game made with pure JS, no framework"
+    "link": "https://ianwalston.github.io/Paletopia",
+    "description": "Create a 10 color pallete from an image url."
   },
   {
-    "id": 7,
-    "name": "Hex Links",
-    "image": "img/hexlinks.png",
+    "id": 0,
+    "name": "UMMI Images",
+    "image": "img/UMMI.png",
     "github": "",
-    "link": "./",
-    "description": "A hexagon themed web developer portfolio made in react."
+    "link": "http://ummi.io",
+    "description": "A sorting utility for user photo albums."
   },
   {
     "id": 8,
@@ -70,5 +54,13 @@
     "github": "",
     "link": "https://skincareapi.herokuapp.com",
     "description": "An API for searching through skin care product safety data."
+  },
+  {
+    "id": 0,
+    "name": "Responsive Design",
+    "image": "img/responsive.jpg",
+    "github": "https://github.com/IanWalston/For-Agora-Financial/tree/master/Part_One",
+    "link": "https://ianwalston.github.io/For-Agora-Financial/Part_One/index.html",
+    "description": "A mobile responsive design created with css grid and media queries"
   }
 ]
