@@ -58,13 +58,12 @@ class App extends React.Component {
                   this.setState({ darktheme: !this.state.darktheme })
                 }
               />
-             
             </div>
 
             <div id="links">
               {this.state.hexlinkson ? (
                 <div>
-                  <ul id="projects">
+                  <ul class="hexagons">
                     {this.state.hexlinks.map(link => {
                       return (
                         <Hexagon
@@ -87,8 +86,8 @@ class App extends React.Component {
         </div>
 
         <div id="projects-view">
-        <p id="projects-header">PROJECTS</p>
-          <ul id="projects" className="clr winkhover">
+          <p id="projects-header">PROJECTS</p>
+          <ul className="hexagons clr winkhover">
             {this.state.projects.map(project => {
               return (
                 <Hexagon

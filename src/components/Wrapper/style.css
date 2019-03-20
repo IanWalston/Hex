@@ -1,7 +1,8 @@
 .wrapper {
   padding: 2% 5%;
   height: 100%;
-  background: linear-gradient(rgb(240, 240, 240), rgb(188, 188, 188));
+  background: rgb(116,116,116);
+  background: linear-gradient(333deg, rgba(116,116,116,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .darkwrapper{
